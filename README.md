@@ -29,12 +29,6 @@ These models have been chosen for their successful track record in image classif
 - **MobileNetV3**: A mobile-friendly architecture that balances accuracy and efficiency with fewer parameters, optimized for embedded devices.
 - **InceptionV3**: A deeper and wider network known for reducing computational cost by using "Inception" modules.
 
-## Project Structure
-
-The project is organized as follows:
-├── data/ # Contains the dataset (training, validation, testing) │ ├── train/ # Training data │ ├── val/ # Validation data │ └── test/ # Testing data ├── models/ # Saved trained models │ ├── vgg16/ # VGG16 trained model files │ ├── mobilenetv3/ # MobileNetV3 trained model files │ └── inceptionv3/ # InceptionV3 trained model files ├── notebooks/ # Jupyter notebooks for experimentation │ ├── vgg16_notebook.ipynb # VGG16 model training and evaluation notebook │ ├── mobilenetv3_notebook.ipynb # MobileNetV3 model notebook │ └── inceptionv3_notebook.ipynb # InceptionV3 model notebook ├── src/ # Source code for data processing, model training, and evaluation │ ├── preprocess.py # Code for data preprocessing │ ├── train_vgg16.py # Code for training VGG16 model │ ├── train_mobilenetv3.py # Code for training MobileNetV3 model │ └── train_inceptionv3.py # Code for training InceptionV3 model ├── README.md # Project documentation ├── requirements.txt # Python dependencies └── LICENSE # License for the project
-
-
 
 ## Installation
 
