@@ -29,5 +29,14 @@ These models have been chosen for their successful track record in image classif
 - **MobileNetV3**: A mobile-friendly architecture that balances accuracy and efficiency with fewer parameters, optimized for embedded devices.
 - **InceptionV3**: A deeper and wider network known for reducing computational cost by using "Inception" modules.
 
-## Project Structure
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/mahmoud3wwd/brain-tumor-detection.git
+   cd brain-tumor-detection
 
